@@ -18,7 +18,7 @@
         android:id="@+id/textView_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Large Text"
+        android:text="Titulo"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
