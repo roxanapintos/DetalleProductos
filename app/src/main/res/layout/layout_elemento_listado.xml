@@ -11,14 +11,14 @@
         android:layout_height="80dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:contentDescription="Descripción del contenido de la imagen"
+        android:contentDescription="@string/img_descripcion"
         android:src="@android:drawable/ic_menu_gallery" />
 
     <TextView
         android:id="@+id/textView_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Titulo"
+        android:text="@string/titulo"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 

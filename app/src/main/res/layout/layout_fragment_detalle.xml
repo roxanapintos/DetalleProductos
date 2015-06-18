@@ -9,7 +9,7 @@
         android:id="@+id/textView_superior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Titulo"
+        android:text="@string/titulo"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
@@ -17,7 +17,7 @@
         android:layout_width="178dp"
         android:layout_height="178dp"
         android:adjustViewBounds="true"
-        android:contentDescription="Descripción del contenido de la imagen"
+        android:contentDescription="@string/img_descripcion"
         android:scaleType="fitXY"
         android:src="@android:drawable/ic_menu_gallery" />
 
@@ -25,7 +25,7 @@
         android:id="@+id/textView_inferior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descripcion"
+        android:text="@string/descripcion"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </LinearLayout>
