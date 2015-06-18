@@ -68,7 +68,8 @@ public class Fragment_Lista extends ListFragment {
 
     @Override
     public void onListItemClick(ListView listView, View view, int posicion, long id) {
-        super.onListItemClick(listView, view, posicion, id);		mCallbacks.onEntradaSelecionada(Lista_contenido.ENTRADAS_LISTA.get(posicion).id);
+        super.onListItemClick(listView, view, posicion, id);
+        mCallbacks.onEntradaSelecionada(Lista_contenido.ENTRADAS_LISTA.get(posicion).id);
     }
 
 }

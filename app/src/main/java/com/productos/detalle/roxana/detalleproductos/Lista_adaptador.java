@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 /**
  * Created by roxana on 17/06/15.
+ * Adaptador de ListView universal.
  */
 public abstract class Lista_adaptador extends BaseAdapter {
 

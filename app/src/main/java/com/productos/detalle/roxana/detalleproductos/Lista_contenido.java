@@ -22,19 +22,19 @@ public class Lista_contenido {
      * Creamos estáticamente las entradas
      */
     static {
-        aniadirEntrada(new Lista_entrada("0", R.mipmap.kity, "BUHO", "Búho es el nombre común..."));
-        aniadirEntrada(new Lista_entrada("1", R.mipmap.kity, "COLIBRÍ", "Los troquilinos (Trochilinae) son..."));
-        aniadirEntrada(new Lista_entrada("2", R.mipmap.kity, "CUERVO", "El cuervo común (Corvus corax) es ..."));
-        aniadirEntrada(new Lista_entrada("3", R.mipmap.kity, "FLAMENCO", "Los fenicopteriformes..."));
-        aniadirEntrada(new Lista_entrada("4", R.mipmap.kity, "KIWI", "Los kiwis (Apterix, gr. 'sin alas') son..."));
-        aniadirEntrada(new Lista_entrada("5", R.mipmap.kity, "LORO", "Las Psitácidas (Psittacidae) son..."));
-        aniadirEntrada(new Lista_entrada("6", R.mipmap.kity, "PAVO", "Pavo es un género de aves..."));
+        addEntrada(new Lista_entrada("0", R.mipmap.kity, "BUHO", "Búho es el nombre común..."));
+        addEntrada(new Lista_entrada("1", R.mipmap.kity, "COLIBRÍ", "Los troquilinos (Trochilinae) son..."));
+        addEntrada(new Lista_entrada("2", R.mipmap.kity, "CUERVO", "El cuervo común (Corvus corax) es ..."));
+        addEntrada(new Lista_entrada("3", R.mipmap.kity, "FLAMENCO", "Los fenicopteriformes..."));
+        addEntrada(new Lista_entrada("4", R.mipmap.kity, "KIWI", "Los kiwis (Apterix, gr. 'sin alas') son..."));
+        addEntrada(new Lista_entrada("5", R.mipmap.kity, "LORO", "Las Psitácidas (Psittacidae) son..."));
+        addEntrada(new Lista_entrada("6", R.mipmap.kity, "PAVO", "Pavo es un género de aves..."));
     }
 
     /** Añade una entrada a la lista
      * @param entrada Elemento que añadimos a la lista
      */
-    private static void aniadirEntrada(Lista_entrada entrada) {
+    private static void addEntrada(Lista_entrada entrada) {
         ENTRADAS_LISTA.add(entrada);
         ENTRADAS_LISTA_HASHMAP.put(entrada.id, entrada);
     }
